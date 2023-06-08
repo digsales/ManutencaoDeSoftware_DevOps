@@ -74,12 +74,12 @@
                 name="disciplina"
                 id="inputDisciplina"
               >
-                <option value="">Selecione uma disciplina</option>
-                <% disciplinas.forEach(function(disciplina, index) { %>
-                <option value="<%= disciplina.id %> - <%= disciplina.nome %>">
-                  <%= disciplina.id %> - <%= disciplina.nome %>
+                <option value="1">Selecione uma disciplina</option>
+                <option value="2">
+                  1 - Análise e desenvolvimento de sistemas
                 </option>
-                <% }) %>
+                <option value="3">2 - Ciência da computação</option>
+                <option value="4">3 - Engenharia de software</option>
               </select>
             </div>
             <div class="form-group">
